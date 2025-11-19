@@ -1,6 +1,12 @@
 # Market Basket Analysis dengan Algoritma Apriori
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://marketbasketanalysiscafe.streamlit.app/)
+
 Aplikasi web interaktif untuk analisis keranjang belanja (Market Basket Analysis) menggunakan algoritma Apriori. Aplikasi ini membantu mengidentifikasi pola pembelian produk dan memberikan rekomendasi produk berdasarkan asosiasi antar item.
+
+## 🌐 Live Demo
+
+**Coba aplikasi langsung:** [https://marketbasketanalysiscafe.streamlit.app/](https://marketbasketanalysiscafe.streamlit.app/)
 
 ## 📋 Deskripsi
 
@@ -59,6 +65,13 @@ Pastikan file `bread basket.csv` berada di folder yang sama dengan `app.py`. Fil
 
 ## 🎯 Cara Menjalankan
 
+### Opsi 1: Gunakan Aplikasi Online (Recommended)
+
+Langsung akses aplikasi yang sudah live di:
+**[https://marketbasketanalysiscafe.streamlit.app/](https://marketbasketanalysiscafe.streamlit.app/)**
+
+### Opsi 2: Jalankan Secara Lokal
+
 Jalankan aplikasi dengan perintah:
 
 ```bash
@@ -97,17 +110,6 @@ Kekuatan hubungan dibandingkan pembelian acak.
 - **Lift > 1**: Item saling berkaitan positif
 - **Lift = 1**: Tidak ada hubungan
 - **Lift < 1**: Item berkaitan negatif
-
-## 🎨 Struktur Project
-
-```
-market-basket-analysis/
-│
-├── app.py                  # File utama aplikasi Streamlit
-├── bread basket.csv        # Dataset transaksi
-├── requirements.txt        # Dependencies
-└── README.md              # Dokumentasi (file ini)
-```
 
 ## 📝 Contoh Dataset
 
@@ -170,7 +172,7 @@ Beberapa ide untuk pengembangan aplikasi:
 
 ## 👥 Kontributor
 
-- **Nama Anda** - Initial work - Market Basket Analysis
+- **Muhammad Zulfan Alghifari**
 
 ## 📄 Lisensi
 
@@ -185,8 +187,8 @@ Project ini dibuat untuk keperluan pembelajaran dan portfolio.
 ## 📧 Kontak
 
 Jika ada pertanyaan atau saran, silakan hubungi:
-- Email: email@example.com
-- LinkedIn: [Profil LinkedIn]
+- Email: zulfanghifari29@gmail.com
+- LinkedIn: https://www.linkedin.com/in/zulfanghifari/
 - GitHub: [GitHub Profile]
 
 ---
